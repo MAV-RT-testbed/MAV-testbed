@@ -1,0 +1,76 @@
+11:52:46 **** Build of configuration Debug for project test_lwip_orig ****
+make all 
+Building file: ../src/echo.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -I../../Syma_Flight_lwip_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/echo.d" -MT"src/echo.d" -o "src/echo.o" "../src/echo.c"
+../src/echo.c:53:39: warning: 'struct pbuf' declared inside parameter list [enabled by default]
+                                struct pbuf *p, err_t err)
+                                       ^
+../src/echo.c:53:39: warning: its scope is only this definition or declaration, which is probably not what you want [enabled by default]
+../src/echo.c:53:39: warning: 'struct tcp_pcb' declared inside parameter list [enabled by default]
+../src/echo.c: In function 'recv_callback':
+../src/echo.c:57:3: warning: implicit declaration of function 'tcp_close' [-Wimplicit-function-declaration]
+   tcp_close(tpcb);
+   ^
+../src/echo.c:58:3: warning: implicit declaration of function 'tcp_recv' [-Wimplicit-function-declaration]
+   tcp_recv(tpcb, NULL);
+   ^
+../src/echo.c:63:2: warning: implicit declaration of function 'tcp_recved' [-Wimplicit-function-declaration]
+  tcp_recved(tpcb, p->len);
+  ^
+../src/echo.c:63:20: error: dereferencing pointer to incomplete type
+  tcp_recved(tpcb, p->len);
+                    ^
+../src/echo.c:67:2: warning: implicit declaration of function 'tcp_sndbuf' [-Wimplicit-function-declaration]
+  if (tcp_sndbuf(tpcb) > p->len) {
+  ^
+../src/echo.c:67:26: error: dereferencing pointer to incomplete type
+  if (tcp_sndbuf(tpcb) > p->len) {
+                          ^
+../src/echo.c:68:3: warning: implicit declaration of function 'tcp_write' [-Wimplicit-function-declaration]
+   err = tcp_write(tpcb, p->payload, p->len, 1);
+   ^
+../src/echo.c:68:26: error: dereferencing pointer to incomplete type
+   err = tcp_write(tpcb, p->payload, p->len, 1);
+                          ^
+../src/echo.c:68:38: error: dereferencing pointer to incomplete type
+   err = tcp_write(tpcb, p->payload, p->len, 1);
+                                      ^
+../src/echo.c:73:2: warning: implicit declaration of function 'pbuf_free' [-Wimplicit-function-declaration]
+  pbuf_free(p);
+  ^
+../src/echo.c: At top level:
+../src/echo.c:78:41: warning: 'struct tcp_pcb' declared inside parameter list [enabled by default]
+ err_t accept_callback(void *arg, struct tcp_pcb *newpcb, err_t err)
+                                         ^
+../src/echo.c: In function 'accept_callback':
+../src/echo.c:87:2: warning: implicit declaration of function 'tcp_arg' [-Wimplicit-function-declaration]
+  tcp_arg(newpcb, (void*)connection);
+  ^
+../src/echo.c: In function 'start_application':
+../src/echo.c:103:2: warning: implicit declaration of function 'tcp_new' [-Wimplicit-function-declaration]
+  pcb = tcp_new();
+  ^
+../src/echo.c:103:6: warning: assignment makes pointer from integer without a cast [enabled by default]
+  pcb = tcp_new();
+      ^
+../src/echo.c:110:2: warning: implicit declaration of function 'tcp_bind' [-Wimplicit-function-declaration]
+  err = tcp_bind(pcb, IP_ADDR_ANY, port);
+  ^
+../src/echo.c:110:22: error: 'IP_ADDR_ANY' undeclared (first use in this function)
+  err = tcp_bind(pcb, IP_ADDR_ANY, port);
+                      ^
+../src/echo.c:110:22: note: each undeclared identifier is reported only once for each function it appears in
+../src/echo.c:120:2: warning: implicit declaration of function 'tcp_listen' [-Wimplicit-function-declaration]
+  pcb = tcp_listen(pcb);
+  ^
+../src/echo.c:120:6: warning: assignment makes pointer from integer without a cast [enabled by default]
+  pcb = tcp_listen(pcb);
+      ^
+../src/echo.c:127:2: warning: implicit declaration of function 'tcp_accept' [-Wimplicit-function-declaration]
+  tcp_accept(pcb, accept_callback);
+  ^
+make: *** [src/echo.o] Error 1
+
+11:52:46 Build Finished (took 325ms)
+

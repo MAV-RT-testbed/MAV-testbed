@@ -1,0 +1,230 @@
+#include <stdio.h>
+#include "xparameters.h"
+#include "xil_cache.h"
+#include "xscugic.h"
+#include "xil_exception.h"
+#include "scugic_header.h"
+#include "xdevcfg.h"
+#include "devcfg_header.h"
+#include "xdmaps.h"
+#include "dmaps_header.h"
+#include "xscutimer.h"
+#include "scutimer_header.h"
+#include "xscuwdt.h"
+#include "scuwdt_header.h"
+#include "xparameters.h"
+#include "netif/xadapter.h"
+#include "lwip/udp.h"
+#include "platform.h"
+#include "sleep.h"
+#ifdef __arm__
+#include "xil_printf.h"
+#endif
+#include "rcs_netconfig.h"
+#include "networking.h"
+/*******************************************************************/
+
+/*********************************
+ *  DEFINITIONS
+ *********************************/
+
+#define ADDR_OFFSET		0x4
+#define PPM_BASE_ADDR	0x43C10000
+#define SYMA_BASE_ADDR	0x43C00000
+#define GRAUPNER_MS_DUR		(signed long long)(9596)
+
+typedef struct udppkt_s {
+    uint8_t msgtype;
+    uint8_t  seqno;
+    uint8_t  valid;
+    int8_t  roll;
+    int8_t  pitch;
+    int8_t  yaw;
+    uint8_t  throttle;
+} __attribute__((packed)) udppkt_t;
+
+
+/*********************************
+ *  GLOBALS
+ *********************************/
+volatile int8_t udp_yaw = 0;
+
+
+void callback_udp_recv(void *arg, struct udp_pcb *pcb, struct pbuf *p, struct ip_addr *addr, u16_t port){
+	xil_printf("incoming packet\n\r");
+    if (p != NULL) {
+#if 0
+            udp_sendto(pcb, p, IP_ADDR_BROADCAST, UDP_REMOTE_PORT); //dest port
+            pbuf_free(p);
+#else
+            pbuf_free(p);
+#endif
+    }
+}
+
+/**
+ * @brief this is called on each incoming UDP packet
+ */
+
+void udp_recv_callback(void *arg, struct udp_pcb *pcb, struct pbuf *p, struct ip_addr *addr, u16_t port){
+	udppkt_t*inpack;
+    if (p != NULL) {
+    	inpack = (udppkt_t*)p->payload;
+    	if (inpack->msgtype == 0x42) {
+    		xil_printf("U");
+    		udp_yaw = inpack->yaw;
+    	}
+    	pbuf_free(p);
+    }
+}
+
+int main() 
+{
+	// lwip/UDP stuff
+	struct netif * net_if;
+	struct udp_pcb *ptel_pcb;
+	struct ip_addr destAddr;
+	err_t err;
+
+	const static unsigned long throttle_min = 0x4170;	//*< The minimal counter value of the throttle using a Graupner mx-12 */
+	const static unsigned long throttle_max = 0x8c68;	//*< The minimal counter value of the throttle using a Graupner mx-12 */
+	const static signed long yaw_center = 26357;			//*< The center counter value of the yaw using a Graupner mx-12 */
+	const static signed long nick_center = 26333;			//*< The center counter value of the nick using a Graupner mx-12 */
+	const static signed long roll_center = 28973;			//*< The center counter value of the roll using a Graupner mx-12 */
+
+	unsigned long unsigned_temp;						//*< Temporary variable, needed during the calculation for the throttle
+	signed long signed_temp;							//*< Temporary variable, needed during the calculation for the yaw, nick and roll values */
+
+	long * syma_ptr_cr = (long *) (SYMA_BASE_ADDR);
+	long * syma_ptr_fly = (long *) (SYMA_BASE_ADDR+2*ADDR_OFFSET);
+	long * ppm_1 = (long *) (PPM_BASE_ADDR);
+	long * ppm_2 = (long *) (PPM_BASE_ADDR+ADDR_OFFSET);
+	long * ppm_3 = (long *) (PPM_BASE_ADDR+2*ADDR_OFFSET);
+	long * ppm_4 = (long *) (PPM_BASE_ADDR+3*ADDR_OFFSET);
+
+	long nick_raw = 0;
+	long roll_raw = 0;
+	long throttle_raw = 0;
+	long yaw_raw = 0;
+
+	long nick = 0;
+	long roll = 0;
+	long throttle = 0;
+	long yaw = 0;
+	*syma_ptr_cr = 1;
+
+	xil_printf("******* RT MAV Testbed *******\n\r");
+	xil_printf("* (C)2015 Alexander Söhn\n\r");
+	xil_printf("* TUM RCS\n\r");
+	xil_printf("******************************\n\r\n\r");
+	init_platform();
+
+	/************************
+	 *  SETUP NETWORK (UDP)
+	 ************************/
+	net_if = setup_network();
+	if (!net_if) {
+		xil_printf("Error setting up network\n\r");
+		return 1;
+	}
+
+#ifdef NETWORK_TEST
+	networking_test(net_if);
+	xil_printf("end of nettest\r\n");
+	cleanup_platform();
+	return 0;
+#endif
+
+	// set remote
+	IP4_ADDR(&destAddr, UDP_REMOTE_IPADDR_OCT1,
+							UDP_REMOTE_IPADDR_OCT2,
+							UDP_REMOTE_IPADDR_OCT3,
+							UDP_REMOTE_IPADDR_OCT4);
+
+	ptel_pcb = udp_new();
+	if (!ptel_pcb) {
+		xil_printf("Error creating PCB. Out of Memory\n\r");
+		return -1;
+	}
+	err = udp_bind(ptel_pcb, IP_ADDR_ANY, UDP_LISTEN_PORT);
+	if (err != ERR_OK) {
+		xil_printf("Unable to bind to port %d: err = %d\n\r", UDP_LISTEN_PORT, err);
+		return -2;
+	}
+	udp_recv(ptel_pcb, udp_recv_callback, NULL); // set rx callback
+	xil_printf("UDP is open at port %d\r\n", UDP_LISTEN_PORT);
+
+	/*****************************
+	 *  MAV CONTROL START
+	 *****************************/
+
+	xil_printf("Waiting for throttle stick...\r\n");
+	while(*ppm_3 < 0x8000);
+	while(*ppm_3 > 0x4200);
+
+	xil_printf("MAV armed.\r\n");
+
+	*syma_ptr_cr = 8;
+
+	while(1) {
+		xemacif_input(net_if); // read UDP
+
+		nick_raw = *ppm_1;
+		roll_raw = *ppm_2;
+		throttle_raw = *ppm_3;
+		yaw_raw = *ppm_4;
+
+		// Convert Throttle
+		if(throttle_raw < throttle_min) {
+			throttle = 0;
+		} else {
+			unsigned_temp = throttle_raw - throttle_min;
+			unsigned_temp = (unsigned_temp * 0xFF);
+			unsigned_temp = unsigned_temp / (throttle_max-throttle_min);
+			if(unsigned_temp > 0xFF) {
+				throttle = 0xFF;
+			}
+			else {throttle = (unsigned char)(unsigned_temp);}
+		}
+		*syma_ptr_fly = (throttle << 24) + (*syma_ptr_fly & 0x00FFFFFF);
+
+		//Convert YAW
+		signed_temp = (signed long)(yaw_raw) - yaw_center;
+		signed_temp = signed_temp * 0x7F;
+		signed_temp = signed_temp / GRAUPNER_MS_DUR;
+		if(signed_temp > 127) {yaw = 0x7F;}
+		else if (signed_temp < -127) {yaw = 0xFF;}
+		else if (signed_temp >= 0) {yaw = (unsigned char)(signed_temp);}
+		else if (signed_temp < 0) {yaw = (unsigned char)((signed_temp ^ 0x7F)) ;}
+		*syma_ptr_fly = (yaw << 8) + (*syma_ptr_fly & 0xFFFF00FF);
+
+		//Write YAW from UDP
+		//*syma_ptr_fly = ((unsigned char)(udp_yaw) << 8) + (*syma_ptr_fly & 0xFFFF00FF);
+
+		//Convert NICK
+		signed_temp = (signed long)(nick_raw) - nick_center;
+		signed_temp = signed_temp * 0x7F;
+		signed_temp = signed_temp / GRAUPNER_MS_DUR;
+		if(signed_temp > 127) {nick = 0x7F;}
+		else if (signed_temp < -127) {nick = 0xFF;}
+		else if (signed_temp >= 0) {nick = (unsigned char)(signed_temp);}
+		else if (signed_temp < 0) {nick = (unsigned char)((signed_temp ^ 0x7F)) ;}
+		*syma_ptr_fly = (nick << 16) + (*syma_ptr_fly & 0xFF00FFFF);
+
+		//Convert ROLL
+		signed_temp = (signed long)(roll_raw) - roll_center;
+		signed_temp = signed_temp * 0x7F;
+		signed_temp = signed_temp / GRAUPNER_MS_DUR;
+		if(signed_temp > 127) {roll = 0x7F;}
+		else if (signed_temp < -127) {roll = 0xFF;}
+		else if (signed_temp >= 0) {roll = (unsigned char)(signed_temp);}
+		else if (signed_temp < 0) {roll = (unsigned char)((signed_temp ^ 0x7F)) ;}
+		*syma_ptr_fly = (roll) + (*syma_ptr_fly & 0xFFFFFF00);
+
+		usleep(10000);
+	}
+
+	udp_disconnect(ptel_pcb);
+	cleanup_platform();
+	return 0;
+}

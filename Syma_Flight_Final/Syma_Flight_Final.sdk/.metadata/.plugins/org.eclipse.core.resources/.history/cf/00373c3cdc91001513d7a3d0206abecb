@@ -1,0 +1,13 @@
+/*
+ * networking.h
+ *
+ *  Created on: Nov 23, 2015
+ *      Author: asoehn
+ */
+
+#ifndef NETWORKING_H_
+#define NETWORKING_H_
+
+int setup_network(void);
+
+#endif /* NETWORKING_H_ */

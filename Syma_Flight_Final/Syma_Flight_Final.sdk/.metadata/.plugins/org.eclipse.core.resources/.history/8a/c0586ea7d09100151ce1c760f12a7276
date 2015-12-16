@@ -1,0 +1,8 @@
+/**
+ * @brief network configuration of the uZed 1 z7010 at TUM RCS
+ */
+
+#ifndef RCS_NETCONFIG_H
+#define RCS_NETCONFIG_H
+
+#endif

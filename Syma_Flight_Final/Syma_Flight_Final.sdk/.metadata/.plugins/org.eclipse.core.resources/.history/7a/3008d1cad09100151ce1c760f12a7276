@@ -1,0 +1,19 @@
+/**
+ * @brief network configuration of the uZed 1 z7010 at TUM RCS
+ */
+
+#ifndef RCS_NETCONFIG_H
+#define RCS_NETCONFIG_H
+
+#define RCS_ZEDBOARD_MACADDR { 0x00, 0x0a, 0x35, 0x00, 0x01, 0x22 }
+#define RCS_ZEDBOARD_IPADDR_OCT1
+
+// for UDP
+#define LISTEN_PORT 6001
+#define REMORTE_PORT 6000
+#define UDP_REMOTE_IPADDR_OCT1
+#define UDP_REMOTE_IPADDR_OCT2
+#define UDP_REMOTE_IPADDR_OCT3
+#define UDP_REMOTE_IPADDR_OCT4
+
+#endif

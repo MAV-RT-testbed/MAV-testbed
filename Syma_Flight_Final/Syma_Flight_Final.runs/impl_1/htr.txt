@@ -1,0 +1,9 @@
+#
+# Vivado(TM)
+# htr.txt: a Vivado-generated description of how-to-repeat the
+#          the basic steps of a run.  Note that runme.bat/sh needs
+#          to be invoked for Vivado to track run status.
+# Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+#
+
+vivado -log Test_AXI_Master_simple_v1_0_hw_1_wrapper.vdi -applog -m64 -messageDb vivado.pb -mode batch -source Test_AXI_Master_simple_v1_0_hw_1_wrapper.tcl -notrace

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Syma_Flight_lwip/src/testperiph.c&apos; to &apos;main.c&apos;" description="Rename resource &apos;testperiph.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/testperiph.c" name="main.c" stamp="1448279662752" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Syma_Flight_lwip/src/echo.c&apos; to &apos;networking.c&apos;" description="Rename resource &apos;echo.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/echo.c" name="networking.c" stamp="1448279786336" updateReferences="true"/>
+</session>

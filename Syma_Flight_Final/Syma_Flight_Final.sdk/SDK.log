@@ -1,0 +1,856 @@
+14:49:03 INFO  : Processing command line option -hwspec /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper.hdf.
+14:49:08 WARN  : Unable to obtain port 2450 for use by XSDB Server, java.net.BindException: Address already in use
+14:49:08 INFO  : Launching XSDB server: xsdb -s /DIST/it/sw/amd64/xilinx/2014.4/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2457
+14:52:18 WARN  : Unable to obtain port 2350 for use by XMD, java.net.BindException: Address already in use
+14:52:21 INFO  : System reset is completed.
+14:52:28 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+14:52:29 INFO  : ps7_init is completed.
+14:52:29 INFO  : ps7_post_config is completed.
+14:53:18 INFO  : System reset is completed.
+14:53:23 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+14:53:24 INFO  : ps7_init is completed.
+14:53:24 INFO  : ps7_post_config is completed.
+14:54:32 INFO  : System reset is completed.
+14:54:37 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+14:54:38 INFO  : ps7_init is completed.
+14:54:38 INFO  : ps7_post_config is completed.
+14:57:45 INFO  : System reset is completed.
+14:57:50 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+14:57:51 INFO  : ps7_init is completed.
+14:57:51 INFO  : ps7_post_config is completed.
+14:59:13 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:59:14 INFO  : System reset is completed.
+14:59:20 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+14:59:21 INFO  : ps7_init is completed.
+14:59:21 INFO  : ps7_post_config is completed.
+15:08:08 INFO  : System reset is completed.
+15:08:13 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+15:08:15 INFO  : ps7_init is completed.
+15:08:15 INFO  : ps7_post_config is completed.
+15:25:57 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1443619522000,  Project:1443617305000
+15:25:57 INFO  : Project Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0's source hardware specification located at /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+15:26:00 INFO  : Copied contents of /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper.hdf into /Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/system.hdf.
+15:26:27 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:26:54 INFO  : 
+15:26:59 INFO  : Updating hardware inferred compiler options for Syma_Flight.
+15:26:59 INFO  : Clearing existing target manager status.
+15:26:59 INFO  : Closing and re-opening the MSS file of ther project Syma_Flight_bsp
+15:27:00 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+15:29:07 INFO  : System reset is completed.
+15:29:12 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+15:29:13 INFO  : ps7_init is completed.
+15:29:13 INFO  : ps7_post_config is completed.
+15:48:17 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+15:48:17 WARN  : Terminating existing sessions on processor ps7_cortexa9_0
+10:22:06 INFO  : Processing command line option -hwspec /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper.hdf.
+10:22:07 INFO  : Launching XSDB server: xsdb -s /DIST/it/sw/amd64/xilinx/2014.4/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+10:22:07 INFO  : Checking for hwspec changes in the project Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0.
+10:22:53 INFO  : Processing command line option -hwspec /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper.hdf.
+10:22:54 INFO  : Launching XSDB server: xsdb -s /DIST/it/sw/amd64/xilinx/2014.4/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+10:22:54 INFO  : Checking for hwspec changes in the project Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0.
+10:23:19 INFO  : System reset is completed.
+10:23:24 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+10:23:25 INFO  : ps7_init is completed.
+10:23:26 INFO  : ps7_post_config is completed.
+10:23:54 INFO  : System reset is completed.
+10:23:59 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+10:24:00 INFO  : ps7_init is completed.
+10:24:00 INFO  : ps7_post_config is completed.
+10:25:29 INFO  : System reset is completed.
+10:25:34 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+10:25:35 INFO  : ps7_init is completed.
+10:25:35 INFO  : ps7_post_config is completed.
+10:27:07 INFO  : System reset is completed.
+10:27:12 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+10:27:13 INFO  : ps7_init is completed.
+10:27:14 INFO  : ps7_post_config is completed.
+10:32:50 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:32:53 INFO  : System reset is completed.
+10:32:58 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+10:32:59 INFO  : ps7_init is completed.
+10:32:59 INFO  : ps7_post_config is completed.
+10:33:36 INFO  : System reset is completed.
+10:33:41 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+10:33:43 INFO  : ps7_init is completed.
+10:33:43 INFO  : ps7_post_config is completed.
+10:41:06 INFO  : System reset is completed.
+10:41:11 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+10:41:12 INFO  : ps7_init is completed.
+10:41:12 INFO  : ps7_post_config is completed.
+10:42:58 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+10:42:58 WARN  : Terminating existing sessions on processor ps7_cortexa9_0
+11:18:35 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:28:53 INFO  : Processing command line option -hwspec /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper.hdf.
+17:28:54 INFO  : Launching XSDB server: xsdb -s /DIST/it/sw/amd64/xilinx/2014.4/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+17:28:55 INFO  : Checking for hwspec changes in the project Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0.
+17:29:39 INFO  : System reset is completed.
+17:29:44 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+17:29:45 INFO  : ps7_init is completed.
+17:29:45 INFO  : ps7_post_config is completed.
+17:29:51 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:30:15 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:30:50 INFO  : System reset is completed.
+17:30:55 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+17:30:57 INFO  : ps7_init is completed.
+17:30:57 INFO  : ps7_post_config is completed.
+17:41:43 INFO  : Processing command line option -hwspec /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper.hdf.
+17:41:44 INFO  : Launching XSDB server: xsdb -s /DIST/it/sw/amd64/xilinx/2014.4/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+17:41:44 INFO  : Checking for hwspec changes in the project Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0.
+17:43:07 INFO  : System reset is completed.
+17:43:12 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+17:43:13 INFO  : ps7_init is completed.
+17:43:13 INFO  : ps7_post_config is completed.
+17:49:47 INFO  : System reset is completed.
+17:49:52 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+17:49:54 INFO  : ps7_init is completed.
+17:49:54 INFO  : ps7_post_config is completed.
+17:57:37 INFO  : System reset is completed.
+17:57:42 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+17:57:44 INFO  : ps7_init is completed.
+17:57:44 INFO  : ps7_post_config is completed.
+18:05:37 INFO  : System reset is completed.
+18:05:42 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+18:05:43 INFO  : ps7_init is completed.
+18:05:43 INFO  : ps7_post_config is completed.
+18:35:11 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+18:35:11 WARN  : Terminating existing sessions on processor ps7_cortexa9_0
+15:28:48 INFO  : Processing command line option -hwspec /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper.hdf.
+15:28:50 INFO  : Launching XSDB server: xsdb -s /DIST/it/sw/amd64/xilinx/2014.4/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+15:28:50 INFO  : Checking for hwspec changes in the project Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0.
+15:31:00 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Failed to open Cable Node jsn-DLC9-usb1.6 on TCP:127.0.0.1:3121
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:481)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:432)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:584)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:293)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+15:31:18 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Failed to open Cable Node jsn-DLC9-usb1.6 on TCP:127.0.0.1:3121
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:481)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:432)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:669)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:295)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+15:31:27 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Failed to open Cable Node jsn-DLC9-usb1.6 on TCP:127.0.0.1:3121
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:481)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:432)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:669)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:295)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+15:31:37 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Failed to open Cable Node jsn-DLC9-usb1.6 on TCP:127.0.0.1:3121
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:481)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:432)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:669)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:295)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+15:31:47 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Failed to open Cable Node jsn-DLC9-usb1.6 on TCP:127.0.0.1:3121
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:481)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:432)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:669)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:295)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+15:37:46 INFO  : Processing command line option -hwspec /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper.hdf.
+15:37:48 INFO  : Launching XSDB server: xsdb -s /DIST/it/sw/amd64/xilinx/2014.4/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+15:37:48 INFO  : Checking for hwspec changes in the project Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0.
+15:38:41 INFO  : System reset is completed.
+15:38:46 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+15:38:47 INFO  : ps7_init is completed.
+15:38:47 INFO  : ps7_post_config is completed.
+15:40:54 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:40:58 INFO  : System reset is completed.
+15:41:03 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+15:41:04 INFO  : ps7_init is completed.
+15:41:04 INFO  : ps7_post_config is completed.
+15:45:37 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+15:45:37 WARN  : Terminating existing sessions on processor ps7_cortexa9_0
+10:53:40 INFO  : Processing command line option -hwspec /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper.hdf.
+10:53:41 INFO  : Launching XSDB server: xsdb -s /DIST/it/sw/amd64/xilinx/2014.4/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+10:53:42 INFO  : Checking for hwspec changes in the project Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0.
+10:57:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:57:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:57:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:57:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:57:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:57:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:57:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:57:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:57:19 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:57:19 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:57:19 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:57:19 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:57:19 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:57:19 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:57:19 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:57:19 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:57:19 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:57:19 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:57:19 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:57:19 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:57:19 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:57:19 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:57:22 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:57:22 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:58:00 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:58:19 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:58:39 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:58:40 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:58:40 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:58:47 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:59:07 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+10:59:17 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:00:11 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:00:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:00:32 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:00:36 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:00:44 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:00:46 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:00:49 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:00:51 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:00:52 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:00:55 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:00:58 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:00:59 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:01:39 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:01:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:01:51 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:01:53 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:02:28 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:02:44 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:02:49 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:02:53 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:02:55 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:02:58 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:03:07 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:03:10 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:03:18 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:03:54 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:04:11 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:04:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:04:36 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:04:46 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:04:55 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:04:55 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:04:55 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:04:55 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:04:55 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:05:05 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:05:05 ERROR :  lwIP with Sockets requires "xilkernel or freertos" OS
+ [Hsi 55-1545] Problem running tcl command ::sw_lwip140_v2_3::lwip_drc : ERROR: lwIP with Sockets requires "xilkernel or freertos" OS
+    while executing
+"error "ERROR: lwIP with Sockets requires \"xilkernel or freertos\" OS" "" "mdt_error""
+    (procedure "lwip_sw_drc" line 10)
+    invoked from within
+"lwip_sw_drc $libhandle $emac_periphs_list"
+    (procedure "::sw_lwip140_v2_3::lwip_drc" line 28)
+    invoked from within
+"::sw_lwip140_v2_3::lwip_drc lwip140"
+ [Hsi 55-1440] Error(s) while running DRCs.
+11:05:05 ERROR : Error generating bsp sources: Failed to generate BSP.
+11:05:05 ERROR : Failed to regenerate sources for BSP project Syma_Flight_lwip_bsp
+org.eclipse.core.runtime.CoreException: Internal error occurred while generating bsp sources. Please check the SDK Log view for further details.
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.internalGenerateBsp(RegenBspSourcesHandler.java:178)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.access$2(RegenBspSourcesHandler.java:163)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1$1.run(RegenBspSourcesHandler.java:131)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1.run(RegenBspSourcesHandler.java:135)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+11:05:16 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:05:16 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:05:16 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:05:16 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:05:16 INFO  : Refreshed build settings on project Syma_Flight_lwip
+11:05:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:05:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:05:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:05:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:05:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:05:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:05:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:05:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:05:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:05:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:05:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:05:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:05:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:05:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:05:45 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:05:57 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:06:00 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:06:00 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:06:00 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:06:00 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:06:00 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:06:11 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+CRITICAL WARNING: [Hsi 55-1564] TCL file /DIST/home/asoehn/ip_repo/Syma_Ctrl_core_1.1/drivers/Syma_Ctrl_core_v1_0/data/syma_ctrl_core.tcl doesn't exist for driver syma_ctrl_core
+CRITICAL WARNING: [Hsi 55-1564] TCL file /DIST/home/asoehn/ip_repo/Syma_Ctrl_core_1.1/drivers/Syma_Ctrl_core_v1_0/data/syma_ctrl_core.tcl doesn't exist for driver syma_ctrl_core
+11:06:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:06:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:06:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:06:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:06:12 INFO  : Refreshed build settings on project Syma_Flight_lwip
+11:08:09 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+11:08:09 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+INFO: [Common 17-14] Message 'Hsi 55-1559' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+12:03:36 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Failed to open Cable Node jsn1 on TCP:127.0.0.1:3121
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:481)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:432)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:669)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:295)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+12:04:44 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Failed to open Cable Node jsn1 on TCP:127.0.0.1:3121
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:481)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:432)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:669)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:295)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+12:04:57 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Failed to open Cable Node jsn1 on TCP:127.0.0.1:3121
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:481)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:432)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:669)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:295)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+12:05:31 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Failed to open Cable Node jsn1 on TCP:127.0.0.1:3121
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:481)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:432)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:669)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:295)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+12:06:00 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Failed to open Cable Node jsn1 on TCP:127.0.0.1:3121
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:481)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:432)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:669)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:295)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+12:06:39 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Failed to open Cable Node jsn1 on TCP:127.0.0.1:3121
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:481)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:432)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:584)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:293)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+12:08:07 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:11:16 INFO  : Processing command line option -hwspec /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper.hdf.
+12:11:17 INFO  : Launching XSDB server: xsdb -s /DIST/it/sw/amd64/xilinx/2014.4/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+12:11:17 INFO  : Checking for hwspec changes in the project Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0.
+12:11:49 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Unknown Error Occured
+    Cable is not powered-on
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:481)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:432)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:669)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:295)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+12:12:59 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Failed to open Cable Node jsn1 on TCP:127.0.0.1:3121
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:481)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:432)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:669)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:295)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+12:13:41 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Failed to open Cable Node jsn1 on TCP:127.0.0.1:3121
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:481)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:432)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:669)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:295)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+12:15:34 INFO  : Processing command line option -hwspec /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper.hdf.
+12:15:35 INFO  : Launching XSDB server: xsdb -s /DIST/it/sw/amd64/xilinx/2014.4/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+12:15:35 INFO  : Checking for hwspec changes in the project Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0.
+12:16:02 INFO  : System reset is completed.
+12:16:07 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+12:16:09 INFO  : ps7_init is completed.
+12:16:09 INFO  : ps7_post_config is completed.
+12:16:41 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:16:41 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:16:41 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:16:42 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:16:42 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:16:42 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:16:42 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:17:00 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:17:00 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:17:00 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:17:00 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:17:05 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:17:05 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:17:05 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:17:05 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:17:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:17:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:17:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:17:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:17:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:17:39 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:17:39 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:17:39 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:17:39 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:17:40 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:17:40 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:17:40 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:17:41 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:18:08 INFO  : System reset is completed.
+12:18:13 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+12:18:14 INFO  : ps7_init is completed.
+12:18:14 INFO  : ps7_post_config is completed.
+12:27:00 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:27:00 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:27:00 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:27:00 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:27:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:28:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:33:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:41:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:47:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:49:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:53:27 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:53:27 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:53:27 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:53:27 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:54:42 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:54:42 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:54:42 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:54:42 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:55:48 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:55:48 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:55:48 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:55:48 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:55:52 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:55:52 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:55:52 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+12:55:52 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:01:05 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:01:05 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:01:05 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:01:05 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:01:19 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:01:19 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:01:19 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:01:19 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:01:24 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:01:24 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:01:24 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:01:24 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:01:33 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:01:33 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:01:33 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:01:33 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:02:51 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:02:51 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:02:51 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:02:51 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:03:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:03:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:03:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:03:12 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:03:15 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:03:15 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:03:15 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:03:15 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:04:22 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:04:22 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:04:22 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:04:22 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:04:26 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:04:26 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:04:26 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:04:26 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:10:22 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:10:22 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:10:22 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:10:22 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:10:24 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:10:24 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:10:24 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:10:24 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:11:11 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:11:11 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:11:11 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:11:11 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:25:11 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:25:11 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:25:11 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:25:11 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+ [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+13:27:19 WARN  :  [Hsi 55-1559] Software Design already exists with Name /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Syma_Flight_bsp/system.mss
+INFO: [Common 17-14] Message 'Hsi 55-1559' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+13:27:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:28:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:29:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:33:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:34:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:35:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:37:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:44:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:50:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:51:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:00:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:02:02 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:02:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:03:10 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:03:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:05:10 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:05:15 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:05:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:07:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:09:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:10:50 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:10:54 INFO  : System reset is completed.
+14:10:59 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+14:11:00 INFO  : ps7_init is completed.
+14:11:00 INFO  : ps7_post_config is completed.
+14:11:36 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:11:38 INFO  : System reset is completed.
+14:11:43 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+14:11:45 INFO  : ps7_init is completed.
+14:11:45 INFO  : ps7_post_config is completed.
+14:13:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:31:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:39:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:40:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:50:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:52:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:53:02 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:53:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:55:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:57:25 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:57:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:57:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:58:52 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:58:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:59:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:17:50 INFO  : System reset is completed.
+15:17:55 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+15:17:56 INFO  : ps7_init is completed.
+15:17:56 INFO  : ps7_post_config is completed.
+15:18:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:18:50 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:18:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:48:47 INFO  : System reset is completed.
+16:48:52 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+16:48:53 INFO  : ps7_init is completed.
+16:48:53 INFO  : ps7_post_config is completed.
+16:50:51 INFO  : System reset is completed.
+16:50:56 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+16:50:57 INFO  : ps7_init is completed.
+16:50:57 INFO  : ps7_post_config is completed.
+18:19:07 INFO  : System reset is completed.
+18:19:12 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+18:19:13 INFO  : ps7_init is completed.
+18:19:14 INFO  : ps7_post_config is completed.
+18:20:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:21:52 INFO  : System reset is completed.
+18:21:56 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+18:21:58 INFO  : ps7_init is completed.
+18:21:58 INFO  : ps7_post_config is completed.
+18:32:49 INFO  : System reset is completed.
+18:32:54 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+18:32:55 INFO  : ps7_init is completed.
+18:32:55 INFO  : ps7_post_config is completed.
+18:34:01 INFO  : System reset is completed.
+18:34:05 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+18:34:07 INFO  : ps7_init is completed.
+18:34:07 INFO  : ps7_post_config is completed.
+18:34:49 INFO  : System reset is completed.
+18:34:54 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+18:34:55 INFO  : ps7_init is completed.
+18:34:55 INFO  : ps7_post_config is completed.
+18:53:14 INFO  : System reset is completed.
+18:53:19 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+18:53:20 INFO  : ps7_init is completed.
+18:53:20 INFO  : ps7_post_config is completed.
+19:00:03 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+19:00:05 INFO  : System reset is completed.
+19:00:10 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+19:00:11 INFO  : ps7_init is completed.
+19:00:11 INFO  : ps7_post_config is completed.
+20:45:42 INFO  : System reset is completed.
+20:45:47 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+20:45:48 INFO  : ps7_init is completed.
+20:45:48 INFO  : ps7_post_config is completed.
+20:51:40 INFO  : System reset is completed.
+20:51:45 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+20:51:46 INFO  : ps7_init is completed.
+20:51:47 INFO  : ps7_post_config is completed.
+21:24:46 INFO  : System reset is completed.
+21:24:51 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+21:24:52 INFO  : ps7_init is completed.
+21:24:52 INFO  : ps7_post_config is completed.
+21:27:28 INFO  : System reset is completed.
+21:27:33 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+21:27:34 INFO  : ps7_init is completed.
+21:27:34 INFO  : ps7_post_config is completed.
+21:59:54 INFO  : System reset is completed.
+21:59:59 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+22:00:00 INFO  : ps7_init is completed.
+22:00:00 INFO  : ps7_post_config is completed.
+22:02:29 INFO  : System reset is completed.
+22:02:34 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+22:02:35 INFO  : ps7_init is completed.
+22:02:35 INFO  : ps7_post_config is completed.
+22:04:36 INFO  : System reset is completed.
+22:04:41 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+22:04:42 INFO  : ps7_init is completed.
+22:04:42 INFO  : ps7_post_config is completed.
+09:58:51 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+09:58:51 ERROR : Timeout occured while waiting to get reply for command "targets 64"
+09:58:58 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+09:58:58 ERROR : Timeout occured while waiting to get reply for command "source /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/ps7_init.tcl"
+09:58:58 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while sourcing /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/ps7_init.tcl : 
+	at com.xilinx.sdk.targetmanager.internal.TM.sourceTcl(TM.java:1001)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:669)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:295)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+10:04:50 INFO  : Processing command line option -hwspec /DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper.hdf.
+10:04:51 INFO  : Launching XSDB server: xsdb -s /DIST/it/sw/amd64/xilinx/2014.4/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+10:04:52 INFO  : Checking for hwspec changes in the project Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0.
+10:05:52 INFO  : ps7_init is completed.
+10:05:52 INFO  : ps7_post_config is completed.
+10:05:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:06:42 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:06:52 INFO  : System reset is completed.
+10:06:59 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+10:07:04 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot write to target
+
+
+    AP transaction error (DP CTRL_STAT=0xf0000021)
+    Error Address = 0xf8000008
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1069)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:482)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:669)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:295)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+10:07:22 INFO  : System reset is completed.
+10:07:27 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+10:07:28 INFO  : ps7_init is completed.
+10:07:28 INFO  : ps7_post_config is completed.
+10:07:48 INFO  : System reset is completed.
+10:07:53 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+10:07:54 INFO  : ps7_init is completed.
+10:07:55 INFO  : ps7_post_config is completed.
+10:08:39 INFO  : System reset is completed.
+10:08:44 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+10:08:46 INFO  : ps7_init is completed.
+10:08:46 INFO  : ps7_post_config is completed.
+10:09:24 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:17:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:17:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:26:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:30:42 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:30:45 INFO  : System reset is completed.
+10:30:50 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+10:30:51 INFO  : ps7_init is completed.
+10:30:51 INFO  : ps7_post_config is completed.
+10:51:36 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:52:59 INFO  : System reset is completed.
+10:53:04 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+10:53:05 INFO  : ps7_init is completed.
+10:53:05 INFO  : ps7_post_config is completed.
+10:57:41 INFO  : System reset is completed.
+10:57:46 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+10:57:47 INFO  : ps7_init is completed.
+10:57:48 INFO  : ps7_post_config is completed.
+11:00:03 INFO  : System reset is completed.
+11:00:08 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+11:00:09 INFO  : ps7_init is completed.
+11:00:09 INFO  : ps7_post_config is completed.
+11:07:00 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:07:04 INFO  : System reset is completed.
+11:07:09 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+11:07:11 INFO  : ps7_init is completed.
+11:07:11 INFO  : ps7_post_config is completed.
+11:08:08 INFO  : System reset is completed.
+11:08:13 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+11:08:14 INFO  : ps7_init is completed.
+11:08:14 INFO  : ps7_post_config is completed.
+11:48:45 INFO  : System reset is completed.
+11:48:50 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+11:48:51 INFO  : ps7_init is completed.
+11:48:51 INFO  : ps7_post_config is completed.
+11:53:45 INFO  : System reset is completed.
+11:53:50 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+11:53:51 INFO  : ps7_init is completed.
+11:53:51 INFO  : ps7_post_config is completed.
+13:03:07 INFO  : System reset is completed.
+13:03:11 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+13:03:13 INFO  : ps7_init is completed.
+13:03:13 INFO  : ps7_post_config is completed.
+13:04:37 INFO  : System reset is completed.
+13:04:42 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+13:04:43 INFO  : ps7_init is completed.
+13:04:43 INFO  : ps7_post_config is completed.
+14:31:20 INFO  : System reset is completed.
+14:31:25 INFO  : FPGA configured successfully with bitstream "/DIST/home/asoehn/Syma_Flight_Final/Syma_Flight_Final.sdk/Test_AXI_Master_simple_v1_0_hw_1_wrapper_hw_platform_0/Test_AXI_Master_simple_v1_0_hw_1_wrapper.bit"
+14:31:26 INFO  : ps7_init is completed.
+14:31:26 INFO  : ps7_post_config is completed.
